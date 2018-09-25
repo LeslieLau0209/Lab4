@@ -91,14 +91,15 @@ public class Pokemon {
         /*
          * Get the attack and defense bonuses.
          */
+
         int attackBonus = d20.roll();
         int defenseBonus = d20.roll();
 
         /*
          * Roll the damage dice and compute total damage.
          */
-        int damage1 = d6.roll();
         int damage2 = d6.roll();
+        int damage1 = d6.roll();
         int damage3 = d6.roll();
         int totalDamage = damage1 + damage2 + damage3;
 
